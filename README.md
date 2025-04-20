@@ -13,7 +13,7 @@ streamlit run ui/streamlit_app/main.py\
 
 ### Important note for editing Streamlit front app: If you edit anything other than main.py, then Streamlit might have some trouble with detecting/reruning those changes. I recommend killing the process from CMD and reruning it from IDE terminal.
 **Kill the process**\
-taskkill /f /im streamlit.exe
+taskkill /f /im streamlit.exe\
 **Rerun from IDE**\
 streamlit run ui/streamlit_app/main.py
 
