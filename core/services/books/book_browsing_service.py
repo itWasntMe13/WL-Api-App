@@ -1,5 +1,3 @@
-from aiohttp.web_routedef import static
-
 from core.config import BOOKS_INDEX_PATH
 from core.models.books.book_index import BookIndex
 from rapidfuzz import process, fuzz
